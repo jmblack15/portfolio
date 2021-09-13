@@ -10,6 +10,8 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -24,36 +26,41 @@
    </header>
    <main>
       <section id="welcome-section" class="profile">
-         <h2 class="profile--title">Jose Manuel Osorio</h2>
+         <h1 class="profile--title">Jose Manuel Osorio</h1>
          <p class="profile--description">junior FrontEnd developer with React</p>
       </section>
-      <section id="projects">
-         <div class="projects-card">
-            <h2 class="project-tile">Tribute page</h2>
-            <img src="https://i.imgur.com/7Mv0S3q.png" alt="img-tribute-page">
-            <a href="">Link</a>
+      <section id="projects" class="projects__section">
+         <h2>These are some of my projects</h2>
+         <div class="projects--grid">
+            <a href="https://jmblack15.github.io/Tribute-Page/" target="_blank" class="project-card">
+               <img src="https://i.imgur.com/7Mv0S3q.png" alt="img-tribute-page">
+               <p class="project-tile">Tribute Page</p>
+            </a>
+            <a href="https://jmblack15.github.io/Formulario-encuesta/" class="project-card" target="_blank">
+               <img src="https://i.imgur.com/NJc0vBL.png" alt="img-suervey-form">
+               <p class="project-tile">Survey Form</p>
+            </a>
+            <!-- <a href="https://jmblack15.github.io/Landing-page/" class="project-card" target="_blank">
+               <img src="https://i.imgur.com/58nSyWb.png" alt="img-landing-page">
+               <p class="project-tile">Product Landing Page</p>
+            </a> -->
+            <a href="https://jmblack15.github.io/Technical-Documentation-Page/" class="project-card" target="_blank">
+               <img src="https://i.imgur.com/fbBruoz.png" alt="img-technical-page">
+               <p class="project-tile">Technical Documentation Page</p>
+            </a>
          </div>
-         <div class="projects-card">
-            <h2 class="project-tile"></h2>
-            <img src="" alt="">
-            <a href="">Link</a>
-         </div>
-         <div class="projects-card">
-            <h2 class="project-tile"></h2>
-            <img src="" alt="">
-            <a href="">Link</a>
-         </div>
-         <div class="projects-card">
-            <h2 class="project-tile"></h2>
-            <img src="" alt="">
-            <a href="">Link</a>
-         </div>
+         <a class="btn--repository" id="profile-link" href="https://github.com/jmblack15" target="_blank">Show more</a>
       </section>
-      <section id="contact">
-         <a id="profile-link" href=""></a>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minus sed praesentium accusamus officiis
-            obcaecati recusandae beatae ut. Eum molestiae vitae quisquam sint similique! Odit necessitatibus rem
-            voluptates perferendis doloribus!</p>
+      <section id="contact" class="contact__section">
+         <div class="contact__title">
+            <h2>Let's work together...</h2>
+            <p>How do you take your coffee?</p>
+         </div>
+         <div class="contact__social-network">
+            <a class="fab fa-facebook" href=""> Facebook</a>
+            <a class="fab fa-github" href="">Github</a>
+            <a class="fab fa-twitter" href="">Twitter</a>
+         </div>
       </section>
    </main>
    <footer>
