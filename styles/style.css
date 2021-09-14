@@ -151,3 +151,9 @@ header {
    color          : blueviolet;
    text-decoration: none;
 }
+
+@media (min-width: 500px) {
+   .nav {
+      justify-content: flex-end;
+   }
+}
